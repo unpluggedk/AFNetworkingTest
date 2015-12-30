@@ -4,7 +4,7 @@ before_install:
 - brew update
 - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
 script:
-- xctool -workspace afnetworkingTest.xcworkspace -scheme afnetworkingTest -sdk iphonesimulator
+- xcodebuild -workspace afnetworkingTest.xcworkspace -scheme afnetworkingTest -sdk iphonesimulator
 notifications:
   slack:
     secure: DBmG6F56yrQmLX7EDaht5qmCJbOOQNQT65IossyWRzuepDEul1qbZwHFt8C9yF5tatgmV5vgDPh0ByR8mq9LaHlgW1YAJ+4mbRva74p5MD7tE7ZspscguNrQFUxzEQroj3j4Qa++ScOgkf+dDaXab57r1WP3wlL7Zkm6p9B+D34=
