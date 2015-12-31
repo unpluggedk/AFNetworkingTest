@@ -13,9 +13,9 @@
 		9658120E1C3483E00080875D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9658120D1C3483E00080875D /* ViewController.m */; };
 		965812111C3483E00080875D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9658120F1C3483E00080875D /* Main.storyboard */; };
 		965812131C3483E00080875D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 965812121C3483E00080875D /* Assets.xcassets */; };
-		965812161C3483E00080875D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 965812141C3483E00080875D /* LaunchScreen.storyboard */; };
 		965812211C3483E00080875D /* afnetworkingTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 965812201C3483E00080875D /* afnetworkingTestTests.m */; };
 		9658122C1C3483E00080875D /* afnetworkingTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9658122B1C3483E00080875D /* afnetworkingTestUITests.m */; };
+		96586ABB1C35CE9E00B2DE29 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 96586ABA1C35CE9E00B2DE29 /* LaunchScreen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		9658120D1C3483E00080875D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		965812101C3483E00080875D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		965812121C3483E00080875D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		965812151C3483E00080875D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		965812171C3483E00080875D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9658121C1C3483E00080875D /* afnetworkingTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afnetworkingTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		965812201C3483E00080875D /* afnetworkingTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afnetworkingTestTests.m; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		965812271C3483E00080875D /* afnetworkingTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = afnetworkingTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9658122B1C3483E00080875D /* afnetworkingTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = afnetworkingTestUITests.m; sourceTree = "<group>"; };
 		9658122D1C3483E00080875D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96586ABA1C35CE9E00B2DE29 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		BB33E5D4B6F554D338D086F8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D38FCA0B647859E92F90E752 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -122,7 +122,7 @@
 				9658120D1C3483E00080875D /* ViewController.m */,
 				9658120F1C3483E00080875D /* Main.storyboard */,
 				965812121C3483E00080875D /* Assets.xcassets */,
-				965812141C3483E00080875D /* LaunchScreen.storyboard */,
+				96586ABA1C35CE9E00B2DE29 /* LaunchScreen.xib */,
 				965812171C3483E00080875D /* Info.plist */,
 				965812061C3483E00080875D /* Supporting Files */,
 			);
@@ -270,7 +270,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				965812161C3483E00080875D /* LaunchScreen.storyboard in Resources */,
+				96586ABB1C35CE9E00B2DE29 /* LaunchScreen.xib in Resources */,
 				965812131C3483E00080875D /* Assets.xcassets in Resources */,
 				965812111C3483E00080875D /* Main.storyboard in Resources */,
 			);
@@ -389,14 +389,6 @@
 				965812101C3483E00080875D /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		965812141C3483E00080875D /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				965812151C3483E00080875D /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
