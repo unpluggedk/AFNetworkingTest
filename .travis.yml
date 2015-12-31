@@ -1,9 +1,3 @@
 language: objective-c
-
-before_install:
-- gem install cocoapods -v 0.37.2
-- brew update
-- if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
-
-script:
-- xctool -workspace afnetworkingTest.xcworkspace -scheme afnetworkingTest -sdk iphonesimulator
+xcode_workspace: afnetworkingTest.xcworkspace
+xcode_scheme: afnetworkingTest
