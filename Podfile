@@ -2,3 +2,4 @@
 # platform :ios, '6.0'
 
 pod 'AFNetworking', '2.5.4'
+pod 'ADALiOS', '1.2.4'
